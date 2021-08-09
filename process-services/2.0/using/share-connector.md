@@ -80,7 +80,7 @@ security.encryption.secret=wTy53pl09aN4iOkL
 
 You must set up LDAP in Alfresco Content Services.
 
-Detailed instructions are available in [configure LDAP]({% link content-services/2.0/admin/auth-sync.md %}#configure-ldap).
+Detailed instructions are available in [configure LDAP]({% link content-services/latest/admin/auth-sync.md %}#configure-ldap).
 
 For a working example of an LDAP subsystem, check the LDAP demo provided in the `activiti-share-connector.zip`. The demo amp file contains sample LDAP configuration files for getting Alfresco Content Services setup up with an LDAP (it contains no Share Connector files) configuration.
 
