@@ -166,7 +166,7 @@ The secret token appears in clear text, therefore, to avoid saving it like that:
 1. Override the value (and all other properties) using Alfresco Content Services subsystems and JMX.
 2. To connect to an Alfresco Content Services server using JMX, see:
 
-    [Using a JMX client to change settings dynamically]({% link content-services/2.0/config/index.md %}#using-jmx-client-to-change-settings-dynamically).
+    [Using a JMX client to change settings dynamically]({% link content-services/latest/config/index.md %}#using-jmx-client-to-change-settings-dynamically).
 
 3. Once connected, navigate to `/Alfresco/Configuration/Activiti/default/Attributes` and modify the value for `activiti.secret`.
 
