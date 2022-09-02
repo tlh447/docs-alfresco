@@ -58,8 +58,11 @@ To invalidate the login session, do the following:
     ```text
     security.use-http-session=true
     ```
+When set to true, HTTPSession will be used by Spring Security to track the user instead of the default cookie based tracking. HTTP sessions are controlled by the web server so additional settings can be configured on the web server to control the sessions i.e. session timeouts and session replication. 
 
     Set this property to `false` if you do not wish to enable this behavior.
+    
+    
 
 ## Process definition cache
 
